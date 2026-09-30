@@ -6,8 +6,6 @@ export default function page() {
   return (
     <main className="flex flex-col items-center px-4">
       <TrainingSection />
-      {/* <FAQSection /> */}
-      {/* <Contact /> */}
     </main>
   );
 }
