@@ -21,7 +21,7 @@ type YourItemType = {
 };
 
 export default function Experience() {
-  const { ref } = useSectionInView("Experience", 0.3);
+  const { ref } = useSectionInView("Pricing", 0.3);
   const { theme } = useTheme();
   const [isOpen, setIsOpen] = useState(false);
   const [currentItem, setCurrentItem] = useState<YourItemType | null>(null);
