@@ -40,7 +40,7 @@ export default function TrainingSection() {
 
         <div className="mx-auto grid max-w-7xl items-center gap-14 px-5 py-20 sm:px-6 sm:py-24 lg:grid-cols-2 lg:px-8 lg:py-28">
           <div className="max-w-2xl">
-            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-gray-200 bg-gray-50 px-4 py-2 text-sm font-medium text-gray-700">
+            <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#A8D03C] bg-gray-50 px-4 py-2 text-sm font-medium text-[#12a555]">
               <FaGraduationCap className="h-4 w-4" />
               Kaconex Training Programs
             </div>
@@ -68,7 +68,7 @@ export default function TrainingSection() {
 
               <a
                 href="mailto:careers@kaconex.com"
-                className="rounded-xl border border-gray-200 px-7 py-4 text-center text-sm font-semibold transition hover:border-black"
+                className="rounded-xl border border-[#A8D03C] dark:text-white px-7 py-4 text-center text-sm font-semibold transition hover:border-black"
               >
                 Contact Careers Team
               </a>
@@ -151,7 +151,7 @@ export default function TrainingSection() {
                 ].map((item) => (
                   <div
                     key={item.title}
-                    className="rounded-2xl border border-gray-200 bg-white p-5"
+                    className="rounded-2xl border border-[#A8D03C] bg-white p-5"
                   >
                     <h3 className="font-bold">{item.title}</h3>
 
@@ -172,15 +172,15 @@ export default function TrainingSection() {
       <section id="programs" className="scroll-mt-20 py-20 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
           <div className="max-w-2xl">
-            <p className="text-sm font-semibold uppercase tracking-wider text-gray-500">
+            <p className="text-sm font-semibold uppercase tracking-wider text-[#A8D03C]">
               Training Programs
             </p>
 
-            <h2 className="mt-4 text-2xl font-bold tracking-tight sm:text-5xl">
+            <h2 className="mt-4 dark:text-gray-400 text-2xl font-bold tracking-tight sm:text-5xl">
               Explore your area of interest.
             </h2>
 
-            <p className="mt-5 text-base leading-7 text-gray-600 sm:text-lg">
+            <p className="mt-5 text-base leading-7 dark:to-gray-400 text-gray-600 sm:text-lg">
               Our training portfolio covers technology, business,
               administration, data, project management, and digital skills.
             </p>
@@ -193,15 +193,17 @@ export default function TrainingSection() {
               return (
                 <div
                   key={program.title}
-                  className="group rounded-2xl border border-gray-200 p-7 transition duration-300 hover:-translate-y-2 hover:border-black hover:shadow-xl"
+                  className="group rounded-2xl border dark:border-gray-600 border-gray-200 p-7 transition duration-300 hover:-translate-y-2 hover:border-black hover:shadow-xl"
                 >
-                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-black text-white">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-black text-[#A8D03C]">
                     <Icon className="h-5 w-5" />
                   </div>
 
-                  <h3 className="mt-6 text-xl font-bold">{program.title}</h3>
+                  <h3 className="mt-6 text-xl dark:text-gray-50 font-bold">
+                    {program.title}
+                  </h3>
 
-                  <p className="mt-3 text-sm leading-6 text-gray-600">
+                  <p className="mt-3 text-sm leading-6 text-gray-600 dark:text-gray-400">
                     {program.description}
                   </p>
 
@@ -209,7 +211,7 @@ export default function TrainingSection() {
                     {program.programs.slice(0, 4).map((item) => (
                       <div
                         key={item}
-                        className="flex items-start gap-2 text-sm text-gray-700"
+                        className="flex items-start gap-2 text-sm text-gray-700 dark:text-gray-400"
                       >
                         <FaCheck className="mt-0.5 h-4 w-4 shrink-0" />
                         <span>{item}</span>
@@ -219,7 +221,7 @@ export default function TrainingSection() {
 
                   <a
                     href="mailto:careers@kaconex.com"
-                    className="mt-7 inline-flex items-center gap-2 text-sm font-semibold"
+                    className="mt-7 inline-flex items-center gap-2 text-sm font-semibold text-[#12a555]"
                   >
                     Request program details
                     <FaChevronRight className="h-4 w-4 transition group-hover:translate-x-1" />
@@ -256,7 +258,7 @@ export default function TrainingSection() {
           </div>
 
           <div>
-            <p className="text-sm font-semibold uppercase tracking-wider text-gray-400">
+            <p className="text-sm font-semibold uppercase tracking-wider text-[#A8D03C]">
               Online Training
             </p>
 
@@ -300,7 +302,7 @@ export default function TrainingSection() {
 
               <a
                 href="mailto:careers@kaconex.com"
-                className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-white underline underline-offset-4"
+                className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-[#12a555] underline underline-offset-4"
               >
                 Contact Careers Team
                 <FaArrowRight className="h-4 w-4" />
@@ -317,21 +319,21 @@ export default function TrainingSection() {
         <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
           <div className="grid gap-14 lg:grid-cols-2 lg:items-center">
             <div>
-              <p className="text-sm font-semibold uppercase tracking-wider text-gray-500">
+              <p className="text-sm font-semibold uppercase tracking-wider text-[#12a555]">
                 In-Person Training
               </p>
 
-              <h2 className="mt-4 text-2xl font-bold tracking-tight sm:text-5xl">
+              <h2 className="mt-4 text-2xl font-bold tracking-tight sm:text-5xl dark:text-gray-400">
                 Learn in a practical, in-person environment.
               </h2>
 
-              <p className="mt-6 text-lg leading-8 text-gray-600">
+              <p className="mt-6 text-lg leading-8 dark:text-gray-500 text-gray-600">
                 For participants who prefer classroom-based learning, Kaconex
                 may offer in-person training opportunities depending on the
                 program and available intake.
               </p>
 
-              <p className="mt-4 leading-7 text-gray-600">
+              <p className="mt-4 leading-7 dark:text-gray-500 text-gray-600">
                 Participants interested in attending an in-person program must
                 be able to travel to the country where the training is being
                 delivered and meet the applicable entry and immigration
@@ -366,11 +368,13 @@ export default function TrainingSection() {
                   return (
                     <div
                       key={item.title}
-                      className="rounded-2xl border border-gray-200 p-5"
+                      className="rounded-2xl border border-gray-100 dark:border-gray-500 p-5 shadow-sm"
                     >
-                      <Icon className="h-5 w-5" />
+                      <Icon className="h-5 w-5 text-[#A8D03C]" />
 
-                      <h3 className="mt-4 font-bold">{item.title}</h3>
+                      <h3 className="mt-4 font-bold dark:text-gray-500">
+                        {item.title}
+                      </h3>
 
                       <p className="mt-2 text-sm leading-6 text-gray-600">
                         {item.text}
@@ -399,13 +403,13 @@ export default function TrainingSection() {
       ===================================================== */}
       <section className="bg-gray-50 py-4 sm:py-24">
         <div className="mx-auto max-w-5xl px-5 sm:px-6 lg:px-8">
-          <div className="rounded-[2rem] border border-gray-200 bg-white p-7 shadow-sm sm:p-10 lg:p-14">
+          <div className="rounded-[2rem] border border-[#A8D03C] bg-white p-7 shadow-sm sm:p-10 lg:p-14">
             <div className="mx-auto max-w-3xl text-center">
               <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-black text-white">
                 <FaPlane className="h-6 w-6" />
               </div>
 
-              <p className="mt-6 text-sm font-semibold uppercase tracking-wider text-gray-500">
+              <p className="mt-6 text-sm font-semibold uppercase tracking-wider text-[#A8D03C]">
                 Travel & Immigration Guidance
               </p>
 
@@ -439,7 +443,7 @@ export default function TrainingSection() {
                 },
               ].map((item) => (
                 <div key={item.number} className="rounded-2xl bg-gray-50 p-6">
-                  <span className="text-sm font-bold text-gray-400">
+                  <span className="text-sm font-bold text-[#A8D03C]">
                     {item.number}
                   </span>
 
@@ -452,7 +456,7 @@ export default function TrainingSection() {
               ))}
             </div>
 
-            <div className="mt-8 rounded-2xl border border-gray-200 p-6">
+            <div className="mt-8 rounded-2xl border border-[#A8D03C] p-6">
               <p className="text-sm leading-6 text-gray-600">
                 Immigration requirements can differ depending on the
                 participant's nationality, destination, purpose of travel, and
@@ -466,7 +470,7 @@ export default function TrainingSection() {
             <div className="mt-8 text-center">
               <a
                 href="mailto:careers@kaconex.com"
-                className="inline-flex items-center gap-2 rounded-xl bg-black px-7 py-4 text-sm font-semibold text-white transition hover:-translate-y-1 hover:shadow-xl"
+                className="inline-flex items-center gap-2 rounded-xl bg-black px-7 py-4 text-sm font-semibold text-[#12a555] transition hover:-translate-y-1 hover:shadow-xl"
               >
                 Ask About In-Person Training
                 <FaArrowRight className="h-4 w-4" />
@@ -482,11 +486,11 @@ export default function TrainingSection() {
       <section className="py-20 sm:py-24">
         <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
-            <p className="text-sm font-semibold uppercase tracking-wider text-gray-500">
+            <p className="text-sm font-semibold uppercase tracking-wider text-[#A8D03C]">
               How It Works
             </p>
 
-            <h2 className="mt-4 text-2xl font-bold tracking-tight sm:text-5xl">
+            <h2 className="mt-4 text-2xl text-gray-700 dark:text-gray-500 font-bold tracking-tight sm:text-5xl">
               Start your training journey.
             </h2>
           </div>
@@ -516,13 +520,13 @@ export default function TrainingSection() {
             ].map((step) => (
               <div
                 key={step.number}
-                className="rounded-2xl border border-gray-200 p-7"
+                className="rounded-2xl border border-gray-200 dark:border-gray-600 p-7 shadow-sm"
               >
                 <span className="text-sm font-bold text-gray-400">
                   {step.number}
                 </span>
 
-                <h3 className="mt-5 text-lg font-bold">{step.title}</h3>
+                <h3 className="mt-5 text-lg font-bold text-[#A8D03C]">{step.title}</h3>
 
                 <p className="mt-3 text-sm leading-6 text-gray-600">
                   {step.text}
@@ -538,12 +542,12 @@ export default function TrainingSection() {
       ===================================================== */}
       <section className="bg-gray-50 py-4 sm:py-24">
         <div className="mx-auto max-w-4xl px-5 sm:px-6 lg:px-8">
-          <div className="rounded-[2rem] border border-gray-200 bg-white p-8 text-left shadow-sm sm:p-12">
+          <div className="rounded-[2rem] border border-[#A8D03C] bg-white p-8 text-left shadow-sm sm:p-12">
             <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-black text-white">
               <FaGraduationCap className="h-6 w-6" />
             </div>
 
-            <p className="mt-6 text-sm font-semibold uppercase tracking-wider text-gray-500">
+            <p className="mt-6 text-sm font-semibold uppercase tracking-wider text-[#A8D03C]">
               Training Fees
             </p>
 
@@ -583,7 +587,7 @@ export default function TrainingSection() {
       ===================================================== */}
       <section className="px-5 pb-20 sm:px-6 sm:pb-24 lg:px-8">
         <div className="mx-auto max-w-7xl rounded-[2rem] bg-black px-6 py-16 text-center text-white sm:px-12 sm:py-20">
-          <p className="text-sm font-semibold uppercase tracking-wider text-gray-400">
+          <p className="text-sm font-semibold uppercase tracking-wider text-[#A8D03C]">
             Ready to take the next step?
           </p>
 

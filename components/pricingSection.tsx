@@ -22,7 +22,7 @@ export default function PricingSection() {
               className={`relative rounded-2xl border p-8 shadow-sm ${
                 plan.popular
                   ? "border-black ring-1 ring-black"
-                  : "border-gray-200"
+                  : "border-gray-200 shadow-md"
               }`}
             >
               {plan.popular && (
@@ -49,7 +49,7 @@ export default function PricingSection() {
 
               <Link
                 href={plan.buttonLink}
-                className="mt-8 block rounded-lg bg-[#A8D03C] px-6 py-3 text-center font-medium text-white transition hover:opacity-90"
+                className="mt-8 block rounded-lg bg-[#12a555] px-6 py-3 text-center font-medium text-white transition hover:opacity-90"
               >
                 {plan.buttonText}
               </Link>

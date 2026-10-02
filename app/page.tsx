@@ -198,10 +198,10 @@ export default function Home() {
           </div>
           <div className="mt-10">
             <Link
-              href="/projects"
+              href="mailto:careers@kaconex.com"
               className="inline-flex rounded-xl border border-[#A8D03C] px-6 py-3 text-sm font-semibold transition hover:border-white"
             >
-              View All Projects →
+              Book a live session →
             </Link>
           </div>
         </div>

@@ -15,13 +15,9 @@ export const links = [
     hash: "/",
   },
   // {
-  //   name: "Experience",
-  //   hash: "/Experience",
+  //   name: "About",
+  //   hash: "#about",
   // },
-  {
-    name: "Projects",
-    hash: "/Projects",
-  },
   {
     name: "Training",
     hash: "/training-program",
@@ -161,7 +157,7 @@ export const pricingData = [
     name: "Starter",
     description:
       "For individuals and businesses looking to establish a professional digital presence.",
-    price: "$800",
+    price: "$2,800",
     period: "Starting from",
     buttonText: "Get Started",
     buttonLink: "/contact",
@@ -182,7 +178,7 @@ export const pricingData = [
     name: "Pro",
     description:
       "For growing businesses that need a more powerful website or custom digital solution.",
-    price: "$1,500",
+    price: "$4,500",
     period: "Starting from",
     buttonText: "Start Your Project",
     buttonLink: "/contact",
@@ -204,7 +200,7 @@ export const pricingData = [
     name: "Enterprise",
     description:
       "For businesses requiring advanced and scalable digital solutions.",
-    price: "$2,500",
+    price: "$6,000",
     period: "Starting from",
     buttonText: "Let's Talk",
     buttonLink: "/contact",

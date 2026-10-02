@@ -68,10 +68,10 @@ const Header = () => {
           <Image
             src="/kaconex.png"
             alt="Kaconex"
-            width={190}
-            height={65}
+            width={250}
+            height={25}
             priority
-            className="h-14 w-auto object-contain sm:h-16"
+            className="h-10 w-auto object-contain sm:h-10"
           />
         </Link>
 

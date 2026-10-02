@@ -208,6 +208,7 @@ export default function ContactSection() {
                     id="name"
                     name="name"
                     type="text"
+                    required
                     placeholder="Your name"
                     className="w-full rounded-2xl border border-gray-200 bg-gray-50 px-4 py-3.5 text-sm outline-none transition placeholder:text-gray-400 focus:border-[#12a555] focus:ring-4 focus:ring-[#12a55415] dark:border-gray-800 dark:bg-gray-900"
                   />
@@ -224,6 +225,7 @@ export default function ContactSection() {
                   <input
                     id="email"
                     name="email"
+                    required
                     type="email"
                     placeholder="you@example.com"
                     className="w-full rounded-2xl border border-gray-200 bg-gray-50 px-4 py-3.5 text-sm outline-none transition placeholder:text-gray-400 focus:border-[#12a555] focus:ring-4 focus:ring-[#12a55415] dark:border-gray-800 dark:bg-gray-900"
@@ -242,6 +244,7 @@ export default function ContactSection() {
                 <input
                   id="phone"
                   name="phone"
+                  required
                   type="tel"
                   placeholder="+1 ..."
                   className="w-full rounded-2xl border border-gray-200 bg-gray-50 px-4 py-3.5 text-sm outline-none transition placeholder:text-gray-400 focus:border-[#12a555] focus:ring-4 focus:ring-[#12a55415] dark:border-gray-800 dark:bg-gray-900"
@@ -286,6 +289,7 @@ export default function ContactSection() {
                 <textarea
                   id="message"
                   name="message"
+                  required
                   rows={6}
                   placeholder="Tell us a little about your project or enquiry..."
                   className="w-full resize-none rounded-2xl border border-gray-200 bg-gray-50 px-4 py-3.5 text-sm outline-none transition placeholder:text-gray-400 focus:border-[#12a555] focus:ring-4 focus:ring-[#12a55415]"
