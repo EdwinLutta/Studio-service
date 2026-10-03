@@ -12,7 +12,7 @@ import AppModal from "@/components/modals/AppModal";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Kaconex LLC",
+  title: "KACONEX LLC",
   description:
     "Builds modern websites, web applications, mobile apps and digital products",
 };
