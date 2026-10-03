@@ -36,7 +36,7 @@ const Footer = () => {
       </div>
 
       <small className="mb-2 text-xs block">
-        &copy; 2026 KACONEX.All rights reserved.
+        &copy; 2026 Kaconex LLC. All rights reserved.
       </small>
     </footer>
   );

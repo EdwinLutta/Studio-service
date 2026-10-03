@@ -41,7 +41,7 @@ export default function Home() {
                 Start a Project
               </Link>
               <Link
-                href="/about"
+                href="/aboutUs"
                 className="rounded-xl border border-[#A8D03C] px-7 py-4 text-center text-sm font-semibold transition duration-300 hover:-translate-y-1 hover:border-[#6c8a17]"
               >
                 Learn About Kaconex

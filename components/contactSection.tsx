@@ -167,7 +167,7 @@ export default function ContactSection() {
                 </div>
 
                 <div>
-                  <h3 className="font-semibold">Kaconex — United States</h3>
+                  <h3 className="font-semibold">Kaconex LLC — United States</h3>
                   <p className="mt-2 text-sm leading-6 text-gray-400">
                     Our United States office serves as a point of contact for
                     clients, partners, and individuals interested in working
@@ -331,10 +331,10 @@ export default function ContactSection() {
             </p>
 
             <Link
-              href="/services"
+              href="mailto:careers@kaconex.com"
               className="group mt-8 inline-flex items-center gap-3 rounded-full bg-white px-6 py-3.5 font-semibold text-gray-950 transition hover:bg-[#12a55495] hover:text-white"
             >
-              Explore our services
+              Connect with us
               <FaArrowRight className="transition-transform group-hover:translate-x-1" />
             </Link>
           </div>

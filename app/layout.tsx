@@ -12,8 +12,9 @@ import AppModal from "@/components/modals/AppModal";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Emmanuel | Personal portfolio",
-  description: "Emmanuel is a full stack web and mobile developer",
+  title: "Kaconex LLC",
+  description:
+    "Builds modern websites, web applications, mobile apps and digital products",
 };
 
 export default function RootLayout({
