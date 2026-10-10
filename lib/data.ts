@@ -151,6 +151,336 @@ export const trainingPrograms = [
   },
 ] as const;
 
+export const privacyPolicySections = [
+  {
+    title: "1. Introduction",
+    paragraphs: [
+      `Kaconex ("Kaconex", "we", "us", or "our") is a technology and digital solutions company providing web development, web applications, mobile applications, custom software, digital products, and professional training programs.`,
+
+      `This Privacy Policy explains how we collect, use, protect, and handle personal information when you visit our website, contact us, request our services, or interact with our training programs.`,
+    ],
+  },
+
+  {
+    title: "2. Information We Collect",
+    paragraphs: [
+      "We may collect information that you voluntarily provide when you interact with Kaconex, including:",
+    ],
+    list: [
+      "Your name and contact information.",
+      "Your email address and telephone number.",
+      "Information about your business or project.",
+      "Information submitted through enquiry or contact forms.",
+      "Information provided when requesting our services.",
+      "Information provided when enquiring about training programs.",
+      "Other information you voluntarily provide when communicating with our team.",
+    ],
+    afterList: [
+      "We may also automatically receive limited technical information about how visitors use our website, such as browser type, device information, IP address, and general website activity, where applicable.",
+    ],
+  },
+
+  {
+    title: "3. How We Use Your Information",
+    paragraphs: ["Information we collect may be used to:"],
+    list: [
+      "Respond to enquiries and requests.",
+      "Discuss and manage potential projects.",
+      "Provide our technology and digital services.",
+      "Communicate with clients and prospective clients.",
+      "Respond to training enquiries and applications.",
+      "Improve our website and services.",
+      "Maintain website security and functionality.",
+      "Comply with applicable legal obligations.",
+    ],
+  },
+
+  {
+    title: "4. Project and Client Information",
+    paragraphs: [
+      "When you engage Kaconex for a project, you may provide information relating to your business, organization, product, website, application, or other digital requirements.",
+
+      "We use this information only as reasonably necessary to understand your requirements, provide our services, communicate with you, and fulfill our contractual or professional obligations.",
+    ],
+  },
+
+  {
+    title: "5. Training Program Information",
+    paragraphs: [
+      "If you enquire about or participate in a Kaconex training program, we may collect information necessary to process your enquiry, communicate with you, determine program suitability, and administer the training process.",
+
+      "Where additional information is required for a specific training program, we will explain what information is needed and why it is being requested.",
+    ],
+  },
+
+  {
+    title: "6. Cookies and Website Technologies",
+    paragraphs: [
+      "Our website may use cookies and similar technologies to support essential website functionality, security, performance, and analytics.",
+
+      "Cookies may allow us to understand how visitors interact with our website and help us improve the experience we provide.",
+
+      "You can control or disable cookies through your browser settings. However, disabling certain cookies may affect some website functionality.",
+    ],
+  },
+
+  {
+    title: "7. Sharing of Information",
+    paragraphs: [
+      "Kaconex does not sell your personal information.",
+
+      "We may share information with trusted third-party service providers when reasonably necessary to operate our website, communicate with you, provide our services, process requests, or maintain our technology infrastructure.",
+
+      "We may also disclose information where required by law, regulation, legal proceedings, or a valid request from a competent authority.",
+    ],
+  },
+
+  {
+    title: "8. Third-Party Services",
+    paragraphs: [
+      "Our website or services may use or link to third-party platforms, services, payment providers, communication tools, hosting providers, analytics services, or other technologies.",
+
+      "Third-party services operate under their own privacy policies and terms. Kaconex is not responsible for the privacy practices of third-party websites or services that we do not control.",
+    ],
+  },
+
+  {
+    title: "9. Data Security",
+    paragraphs: [
+      "We take reasonable technical and organizational measures to protect personal information from unauthorized access, misuse, loss, alteration, or disclosure.",
+
+      "However, no method of transmitting or storing information electronically can be guaranteed to be completely secure.",
+    ],
+  },
+
+  {
+    title: "10. Data Retention",
+    paragraphs: [
+      "We retain personal information only for as long as reasonably necessary for the purposes described in this Privacy Policy, including providing services, maintaining business records, resolving disputes, enforcing agreements, and meeting legal obligations.",
+    ],
+  },
+
+  {
+    title: "11. International Data Transfers",
+    paragraphs: [
+      "Kaconex may work with clients, partners, and technology providers located in different countries. As a result, information may sometimes be processed or stored outside the country where you are located.",
+
+      "Where applicable, we take reasonable steps to ensure that personal information is handled in accordance with relevant data protection requirements.",
+    ],
+  },
+
+  {
+    title: "12. Your Privacy Rights",
+    paragraphs: [
+      "Depending on your location and applicable law, you may have rights relating to your personal information, including the right to:",
+    ],
+    list: [
+      "Request access to personal information we hold about you.",
+      "Request correction of inaccurate information.",
+      "Request deletion of your information where legally applicable.",
+      "Object to or restrict certain processing.",
+      "Withdraw consent where processing is based on consent.",
+    ],
+    afterList: [
+      "These rights may be subject to applicable legal requirements and limitations.",
+    ],
+  },
+
+  {
+    title: "13. Children's Privacy",
+    paragraphs: [
+      "Kaconex does not knowingly collect personal information from children in circumstances where such collection is prohibited by applicable law.",
+
+      "Where a training program involves younger participants, additional information or consent may be required from a parent, guardian, or other authorized person where applicable.",
+    ],
+  },
+
+  {
+    title: "14. Changes to This Privacy Policy",
+    paragraphs: [
+      "We may update this Privacy Policy from time to time to reflect changes to our services, website, technology, or applicable legal requirements.",
+
+      `Any updated version will be published on this page with a revised "Last Updated" date.`,
+    ],
+  },
+
+  {
+    title: "15. Contact Us",
+    paragraphs: [
+      "If you have questions about this Privacy Policy or how Kaconex handles personal information, please contact us.",
+    ],
+    contact: {
+      company: "Kaconex",
+      location: "United States",
+      email: "careers@kaconex.com",
+    },
+  },
+];
+
+export const termsSections = [
+  {
+    title: "1. Introduction",
+    paragraphs: [
+      `These Terms and Conditions ("Terms") govern your use of the Kaconex website and your relationship with Kaconex in connection with our technology, digital solutions, and training services.`,
+
+      `By accessing or using our website, you agree to comply with these Terms. If you do not agree with these Terms, please do not use our website or services.`,
+    ],
+  },
+
+  {
+    title: "2. About Kaconex",
+    paragraphs: [
+      "Kaconex is a technology and digital solutions company providing services including website development, web applications, mobile applications, custom software, digital products, UI/UX and digital design, and professional training programs.",
+    ],
+  },
+
+  {
+    title: "3. Use of Our Website",
+    paragraphs: [
+      "You agree to use the Kaconex website only for lawful purposes and in a manner that does not interfere with the operation, security, or availability of the website.",
+      "You must not use our website to:",
+    ],
+    list: [
+      "Engage in fraudulent, unlawful, or harmful activities.",
+      "Attempt to gain unauthorized access to our systems or services.",
+      "Introduce malicious software, code, or other harmful material.",
+      "Copy, reproduce, or distribute website content without permission.",
+      "Interfere with the security, performance, or operation of our website.",
+      "Use our services or website in a way that violates applicable laws or regulations.",
+    ],
+  },
+
+  {
+    title: "4. Our Services",
+    paragraphs: [
+      "Kaconex provides customized technology and digital solutions based on the requirements of each client.",
+      "Services may include website development, web applications, mobile applications, custom software, UI/UX design, digital products, integrations, maintenance, and other technology-related services.",
+      "The exact scope of a project, deliverables, timeline, pricing, payment terms, and client responsibilities may be agreed separately between Kaconex and the client.",
+    ],
+  },
+
+  {
+    title: "5. Project Requirements and Client Responsibilities",
+    paragraphs: [
+      "Clients are responsible for providing accurate information, content, materials, approvals, access credentials, and other resources reasonably required for a project.",
+      "Clients are also responsible for reviewing deliverables and providing timely feedback, approvals, and decisions.",
+      "Delays in providing required information, materials, approvals, or feedback may affect the project timeline.",
+    ],
+  },
+
+  {
+    title: "6. Pricing and Payments",
+    paragraphs: [
+      "Prices displayed on the Kaconex website may represent starting prices or general estimates and may not represent the final cost of a project.",
+      "Final pricing depends on factors such as project scope, functionality, complexity, integrations, design requirements, development requirements, and other agreed services.",
+      "Payment schedules, deposits, milestones, and other payment requirements will be communicated and agreed with the client before or during the project.",
+    ],
+  },
+
+  {
+    title: "7. Changes to Projects",
+    paragraphs: [
+      "Changes to the agreed project scope may affect the project cost and delivery timeline.",
+      "Additional features, functionality, revisions, integrations, or other requirements requested after the original scope has been agreed may require additional fees and a revised timeline.",
+    ],
+  },
+
+  {
+    title: "8. Intellectual Property",
+    paragraphs: [
+      "Unless otherwise agreed in writing, Kaconex retains ownership of its pre-existing tools, frameworks, libraries, reusable components, development processes, methodologies, templates, and other materials used to provide its services.",
+      "Ownership or licensing of project-specific deliverables will depend on the agreement between Kaconex and the client.",
+      "Clients are responsible for ensuring that they have the necessary rights or permissions for any content, images, trademarks, data, software, or other materials they provide to Kaconex.",
+    ],
+  },
+
+  {
+    title: "9. Portfolio and Project Showcase",
+    paragraphs: [
+      "Where permitted by the applicable client agreement, Kaconex may showcase completed projects, screenshots, descriptions, or other non-confidential project information for portfolio, marketing, or promotional purposes.",
+      "Kaconex will respect confidentiality obligations and specific restrictions agreed with a client.",
+    ],
+  },
+
+  {
+    title: "10. Training Programs",
+    paragraphs: [
+      "Kaconex may offer professional and skills-based training programs in areas such as technology, project management, data and analytics, business, administration, and digital and creative skills.",
+      "Training availability, schedules, fees, duration, delivery format, entry requirements, and other program conditions may vary by program.",
+      "Participation in a Kaconex training program does not guarantee employment, immigration approval, visa approval, admission to another country, certification, or any specific career outcome unless expressly agreed in writing.",
+    ],
+  },
+
+  {
+    title: "11. Third-Party Services",
+    paragraphs: [
+      "Kaconex may use or integrate third-party services, platforms, software, hosting providers, payment providers, communication tools, analytics services, and other technologies.",
+      "Third-party services operate independently and may be subject to their own terms, conditions, and privacy policies.",
+      "Kaconex is not responsible for the availability, functionality, policies, or actions of third-party services that we do not control.",
+    ],
+  },
+
+  {
+    title: "12. Website Content",
+    paragraphs: [
+      "We make reasonable efforts to keep the information on our website accurate and up to date. However, website content may change from time to time without notice.",
+      "Information provided on the website is intended for general informational purposes and should not be treated as a guarantee of a particular result, service availability, project outcome, employment opportunity, or business result.",
+    ],
+  },
+
+  {
+    title: "13. Disclaimer",
+    paragraphs: [
+      "To the extent permitted by applicable law, the Kaconex website and its content are provided on an available basis without guarantees that the website will always be uninterrupted, error-free, completely secure, or free from harmful components.",
+      "Specific services and project deliverables are governed by the terms agreed between Kaconex and the relevant client.",
+    ],
+  },
+
+  {
+    title: "14. Limitation of Liability",
+    paragraphs: [
+      "To the maximum extent permitted by applicable law, Kaconex will not be responsible for indirect, incidental, consequential, or other losses arising from the use of our website or services, except where such liability cannot legally be excluded.",
+      "Nothing in these Terms is intended to exclude or limit liability where such exclusion or limitation is prohibited by applicable law.",
+    ],
+  },
+
+  {
+    title: "15. Termination",
+    paragraphs: [
+      "Kaconex may restrict or terminate access to the website or discontinue services where reasonably necessary, including in cases involving unlawful activity, misuse of our services, security concerns, or violation of these Terms.",
+      "Termination does not affect rights or obligations that arose before termination.",
+    ],
+  },
+
+  {
+    title: "16. Changes to These Terms",
+    paragraphs: [
+      "Kaconex may update these Terms from time to time to reflect changes to our website, services, business practices, or applicable legal requirements.",
+      "Updated Terms will be published on this page. Your continued use of the website after changes are published constitutes acceptance of the updated Terms to the extent permitted by applicable law.",
+    ],
+  },
+
+  {
+    title: "17. Governing Law",
+    paragraphs: [
+      "These Terms are subject to the laws applicable to Kaconex and its operations, subject to any mandatory legal requirements that may apply.",
+      "Where a separate written agreement exists between Kaconex and a client, the governing law and dispute-resolution provisions contained in that agreement will apply to the extent provided by that agreement.",
+    ],
+  },
+
+  {
+    title: "18. Contact Us",
+    paragraphs: [
+      "If you have questions about these Terms and Conditions, please contact Kaconex.",
+    ],
+    contact: {
+      company: "Kaconex",
+      location: "United States",
+      email: "careers@kaconex.com",
+    },
+  },
+];
+
 export const pricingData = [
   {
     id: "starter",
